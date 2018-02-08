@@ -50,7 +50,7 @@ cycleScrollView.titlesGroup = 标题数组（数组元素个数必须和图片�
 
 cycleScrollView.delegate = ; // 如需监听图片点击，请设置代理，实现代理方法
 
-cycleScrollView.autoScrollTimeInterval = ;// 自定义轮播时间间隔
+
 
 
 
