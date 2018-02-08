@@ -7,14 +7,18 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2EE042E8202BF10000372832 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE042E7202BF10000372832 /* AppDelegate.m */; };
-		2EE042EB202BF10000372832 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE042EA202BF10000372832 /* ViewController.m */; };
 		2EE042EE202BF10000372832 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE042EC202BF10000372832 /* Main.storyboard */; };
 		2EE042F0202BF10000372832 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2EE042EF202BF10000372832 /* Assets.xcassets */; };
 		2EE042F3202BF10000372832 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2EE042F1202BF10000372832 /* LaunchScreen.storyboard */; };
 		2EE042F6202BF10000372832 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE042F5202BF10000372832 /* main.m */; };
 		2EE04300202BF10000372832 /* PushParameterWithDictTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE042FF202BF10000372832 /* PushParameterWithDictTests.m */; };
 		2EE0430B202BF10000372832 /* PushParameterWithDictUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0430A202BF10000372832 /* PushParameterWithDictUITests.m */; };
+		2EE04323202BF3F100372832 /* ModalManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE04321202BF3F100372832 /* ModalManager.m */; };
+		2EE04324202BF3F100372832 /* ModalError.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE04322202BF3F100372832 /* ModalError.m */; };
+		2EE0432E202C206100372832 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE0432D202C206100372832 /* AppDelegate.m */; };
+		2EE04336202C20AB00372832 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE04331202C20AA00372832 /* ViewController.m */; };
+		2EE04337202C20AB00372832 /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE04332202C20AA00372832 /* WebViewController.m */; };
+		2EE04338202C20AB00372832 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE04333202C20AA00372832 /* FirstViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,10 +40,6 @@
 
 /* Begin PBXFileReference section */
 		2EE042E3202BF10000372832 /* PushParameterWithDict.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PushParameterWithDict.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2EE042E6202BF10000372832 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2EE042E7202BF10000372832 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2EE042E9202BF10000372832 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2EE042EA202BF10000372832 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2EE042ED202BF10000372832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2EE042EF202BF10000372832 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2EE042F2202BF10000372832 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +51,18 @@
 		2EE04306202BF10000372832 /* PushParameterWithDictUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PushParameterWithDictUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2EE0430A202BF10000372832 /* PushParameterWithDictUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PushParameterWithDictUITests.m; sourceTree = "<group>"; };
 		2EE0430C202BF10000372832 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2EE0431F202BF3F100372832 /* ModalError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalError.h; sourceTree = "<group>"; };
+		2EE04320202BF3F100372832 /* ModalManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ModalManager.h; sourceTree = "<group>"; };
+		2EE04321202BF3F100372832 /* ModalManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalManager.m; sourceTree = "<group>"; };
+		2EE04322202BF3F100372832 /* ModalError.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ModalError.m; sourceTree = "<group>"; };
+		2EE0432C202C206100372832 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EE0432D202C206100372832 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EE04330202C20AA00372832 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2EE04331202C20AA00372832 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2EE04332202C20AA00372832 /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		2EE04333202C20AA00372832 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2EE04334202C20AA00372832 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2EE04335202C20AA00372832 /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,15 +113,10 @@
 		2EE042E5202BF10000372832 /* PushParameterWithDict */ = {
 			isa = PBXGroup;
 			children = (
-				2EE042E6202BF10000372832 /* AppDelegate.h */,
-				2EE042E7202BF10000372832 /* AppDelegate.m */,
-				2EE042E9202BF10000372832 /* ViewController.h */,
-				2EE042EA202BF10000372832 /* ViewController.m */,
-				2EE042EC202BF10000372832 /* Main.storyboard */,
-				2EE042EF202BF10000372832 /* Assets.xcassets */,
-				2EE042F1202BF10000372832 /* LaunchScreen.storyboard */,
-				2EE042F4202BF10000372832 /* Info.plist */,
-				2EE042F5202BF10000372832 /* main.m */,
+				2EE0432B202C206100372832 /* AppDelegate */,
+				2EE0431E202BF3F100372832 /* Modal */,
+				2EE0432F202C20AA00372832 /* Classes */,
+				2EE04339202C2E6000372832 /* Supporting Files */,
 			);
 			path = PushParameterWithDict;
 			sourceTree = "<group>";
@@ -130,6 +137,51 @@
 				2EE0430C202BF10000372832 /* Info.plist */,
 			);
 			path = PushParameterWithDictUITests;
+			sourceTree = "<group>";
+		};
+		2EE0431E202BF3F100372832 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				2EE0431F202BF3F100372832 /* ModalError.h */,
+				2EE04322202BF3F100372832 /* ModalError.m */,
+				2EE04320202BF3F100372832 /* ModalManager.h */,
+				2EE04321202BF3F100372832 /* ModalManager.m */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		2EE0432B202C206100372832 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				2EE0432C202C206100372832 /* AppDelegate.h */,
+				2EE0432D202C206100372832 /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		2EE0432F202C20AA00372832 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				2EE04334202C20AA00372832 /* ViewController.h */,
+				2EE04331202C20AA00372832 /* ViewController.m */,
+				2EE04330202C20AA00372832 /* FirstViewController.h */,
+				2EE04333202C20AA00372832 /* FirstViewController.m */,
+				2EE04335202C20AA00372832 /* WebViewController.h */,
+				2EE04332202C20AA00372832 /* WebViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		2EE04339202C2E6000372832 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE042EC202BF10000372832 /* Main.storyboard */,
+				2EE042EF202BF10000372832 /* Assets.xcassets */,
+				2EE042F1202BF10000372832 /* LaunchScreen.storyboard */,
+				2EE042F4202BF10000372832 /* Info.plist */,
+				2EE042F5202BF10000372832 /* main.m */,
+			);
+			path = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,9 +317,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2EE042EB202BF10000372832 /* ViewController.m in Sources */,
+				2EE04336202C20AB00372832 /* ViewController.m in Sources */,
+				2EE04337202C20AB00372832 /* WebViewController.m in Sources */,
 				2EE042F6202BF10000372832 /* main.m in Sources */,
-				2EE042E8202BF10000372832 /* AppDelegate.m in Sources */,
+				2EE0432E202C206100372832 /* AppDelegate.m in Sources */,
+				2EE04338202C20AB00372832 /* FirstViewController.m in Sources */,
+				2EE04324202BF3F100372832 /* ModalError.m in Sources */,
+				2EE04323202BF3F100372832 /* ModalManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -431,7 +487,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PushParameterWithDict/Info.plist;
+				DEVELOPMENT_TEAM = 9M422A22FH;
+				INFOPLIST_FILE = "$(SRCROOT)/PushParameterWithDict/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lujh.cn.PushParameterWithDict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -444,7 +501,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = PushParameterWithDict/Info.plist;
+				DEVELOPMENT_TEAM = 9M422A22FH;
+				INFOPLIST_FILE = "$(SRCROOT)/PushParameterWithDict/Supporting Files/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.lujh.cn.PushParameterWithDict;
 				PRODUCT_NAME = "$(TARGET_NAME)";
