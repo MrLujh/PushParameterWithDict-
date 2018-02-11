@@ -21,7 +21,8 @@
     return routerError;
 }
 
-#pragma mark  自定义错误页面 此页面一定确保能够找到，否则会进入死循环
+#pragma mark  -自定义错误页面 此页面一定确保能够找到，否则会进入死循环
+
 -(UIViewController *)getErrorController{
     NSDictionary *diction = [[NSMutableDictionary alloc] init];
     [diction setValue:@"https://github.com/daniulaolu" forKey:@"errorUrl"];
