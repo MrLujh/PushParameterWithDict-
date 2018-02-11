@@ -15,7 +15,7 @@
     [super viewDidLoad];
     self.title = @"控制器耦合优化";
     
-    //1111111111111122222222222222
+    //11111111111111回来了
     UIButton *button = [[UIButton alloc] initWithFrame:CGRectMake((self.view.frame.size.width -300)/2.0, 200, 300, 50)];
     [button setTitle:@"项目中能找到的VC带参数跳转" forState:UIControlStateNormal];
     [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
